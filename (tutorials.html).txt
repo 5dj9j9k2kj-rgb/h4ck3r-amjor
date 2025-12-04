@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Tutorials</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+  <a href="index.html">Home</a>
+  <a href="terminal.html">Terminal</a>
+  <a href="tools.html">Tools</a>
+  <a href="tutorials.html">Tutorials</a>
+</nav>
+
+<h1 class="page-title">CMD Bestanden Bekijken</h1>
+
+<div class="box">
+  <h2>Stap 1: Win + R</h2>
+  <p>Open “Uitvoeren”.</p>
+</div>
+
+<div class="box">
+  <h2>Stap 2: CMD openen</h2>
+  <pre>cmd</pre>
+</div>
+
+<div class="box">
+  <h2>Stap 3: groene tekst</h2>
+  <pre>color 2</pre>
+</div>
+
+<div class="box">
+  <h2>Stap 4: eigen bestanden zien</h2>
+  <pre>dir /s</pre>
+</div>
+
+</body>
+</html>

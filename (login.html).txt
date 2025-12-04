@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="nl">
+<head>
+  <meta charset="utf-8">
+  <title>Login - H4CK3R AMJOR</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+</head>
+<body class="login-bg">
+
+<div class="login-box">
+  <h1 class="logo">H4CK3R AMJOR</h1>
+  <p class="subtitle">Secure Access Portal</p>
+
+  <input type="password" id="loginInput" placeholder="Enter Password">
+  <button onclick="checkLogin()">Login</button>
+
+  <p id="loginMessage"></p>
+</div>
+
+<div id="accessAnimation" class="access-hidden">
+  <h1>ACCESS GRANTED</h1>
+</div>
+
+</body>
+</html>
